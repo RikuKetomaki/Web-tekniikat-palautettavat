@@ -28,6 +28,9 @@ body {
   opacity: 85%;
   border-radius: 15px;
 }
+#carousel #carouselExampleCaptions .slide-text p {
+  max-width: 450px;
+}
 
 h5 + p {
   padding-top: 10px;

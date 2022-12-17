@@ -36,6 +36,9 @@ body {
             padding: 20px;
             opacity: 85%;
             border-radius: 15px;
+            p {
+                max-width: 450px;
+            }
         }
     }
 }
