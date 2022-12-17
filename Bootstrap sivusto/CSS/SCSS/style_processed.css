@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  background-color: rgb(57, 56, 61);
+}
+
+.container-fluid {
+  width: 100vw;
+}
+
+/* Etusivu starts here */
+/* Carousel starts here */
+#carousel {
+  width: 100vw;
+  text-align: center;
+  padding-top: 50px;
+}
+#carousel #carouselExampleCaptions {
+  display: inline-block;
+  width: 70vw;
+  max-width: 1280px;
+}
+#carousel #carouselExampleCaptions .slide-text {
+  background-color: rgb(39, 39, 39);
+  width: max-content;
+  display: inline-block;
+  padding: 20px;
+  opacity: 85%;
+  border-radius: 15px;
+}
+
+h5 + p {
+  padding-top: 10px;
+}
+
+/* Carousel ends here */
+/* Buttons start here */
+.change-site-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+a > .btn {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  width: 150px;
+  border: 1px solid black;
+}
+
+#leftButton {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#rightButton {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+/* Buttons ends here */
+/* Etusivu ends here */
+/* Koulutussivu starts here */
+.education-main {
+  display: flex;
+  width: 100vw;
+  margin-top: 100px;
+  justify-content: center;
+}
+.education-main .card {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  margin: 30px;
+  height: 100%;
+}
+
+/* Koulutussivu ends here */
+/* Työt starts here */
+.work-main {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 100px;
+}
+.work-main .accordion {
+  width: 50%;
+}
+.work-main .accordion .accordion-item {
+  border: 1px solid black;
+}
+.work-main .accordion .accordion-item :first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.work-main .accordion .accordion-item :last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.work-main .accordion .accordion-item .accordion-collapse {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+.work-main .accordion .accordion-item .accodrion-header {
+  border-bottom: 10px solid black;
+}
+.work-main .accordion .accordion-item [type~=button] {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+/* Työt ends here */
+/* Responsiivisuus */
+/* Koulutus */
+@media only screen and (max-width: 768px) {
+  .education-main {
+    display: grid;
+  }
+  .education-main :not(:first-child) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .education-main :not(:last-child) {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+
+/*# sourceMappingURL=style_processed.css.map */

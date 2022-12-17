@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riku Ketomäki portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/SCSS/style_processed.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <!-- Navbar starts here -->
+    <div id="nav">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container-fluid">
+              <div class="navbar-brand" href="#">Navigointi</div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Etusivu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Pages/koulutus.html">Koulutus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Pages/työt.html">Työt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- Navbar ends here -->
+    <!-- Carousel starts here -->
+    <div id="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/KauhajokiLukioMuokattu.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" class="slide-text">
+              <div class="slide-text">
+                <h5>Kauhajoen lukio</h5>
+                <p>Valmistunut vuonna 2021 Kauhajoen lukiosta</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/IkhVarastoMuokattu.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" id="slide-text">
+              <div class="slide-text">
+                <h5>Isojoen konehalli</h5>
+                <p>Työskennellyt varaston puolella lavakeräyksessä päälle 3 kk</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Programming.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" class="slide-text">
+              <div class="slide-text">
+                <h5>Tiedonkäsittelyn tradenomi opiskelija</h5>
+                <p>Ensimmäistä vuotta Oulun ammattikorkeassa opiskelemassa tiedonkäsittelyn tradenomiksi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Carousel ends here -->
+    <!-- Button group starts here -->
+    <div class="change-site-buttons">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <a href="./Pages/koulutus.html"><button type="button" id="leftButton" class="btn btn-primary">Koulutus</button></a>
+        <a href="./Pages/työt.html"><button type="button" id="rightButton" class="btn btn-primary">Työt</button></a>
+      </div>
+    </div>
+    <!-- Button group ends here -->
+</body>
+</html>

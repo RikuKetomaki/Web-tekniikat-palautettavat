@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    background-color: rgb(57, 56, 61);
+}
+
+.container-fluid {
+    width: 100vw;
+}
+
+/* Etusivu starts here */
+
+/* Carousel starts here */
+#carousel {
+    width: 100vw;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#carousel #carouselExampleCaptions {
+    display: inline-block;
+    width: 70vw;
+    max-width: 1280px;
+}
+
+.slide-text {
+    background-color: rgb(39, 39, 39);
+    width: max-content;
+    display: inline-block;
+    padding: 20px;
+    opacity: 85%;
+    border-radius: 15px;
+}
+/* Carousel ends here */
+/* Buttons start here */
+.etusivu-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.btn {
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgb(39, 39, 39);
+}
+
+
+#leftButton {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#rightButton {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+/* Buttons ends here */
+
+/* Etusivu ends here */
+
+/* Koulutussivu starts here */
+.main {
+    display: flex;
+    width: 100vw;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.card {
+    margin: 30px; 
+    background-color: rgb(39, 39, 39);
+    height: 100%;
+}
+
+.card p, h5 {
+    color: white;
+}
+
+.card h5 {
+    padding-bottom: 15px;
+}
+/* Koulutussivu ends here */
+
+/* Työt starts here */
+.work-main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 100px;
+}
+
+.accordion {
+    width: 50%;
+}
+
+.accordion-item {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.accordion button{
+    background-color: rgb(39, 39, 39);
+    border-bottom: 1px solid black;
+}
+
+.accordion-body, .accordion button {
+    color: white;
+}
+
+
+.accordion-collapse  {
+    background-color: rgb(39, 39, 39);
+}
+
+
+
+
+/* Työt ends here */
+
+/* Responsiivisuus */
+
+/* Koulutus */
+@media only screen and (max-width: 768px) {
+    .card img {
+        display: none;
+    }
+}
